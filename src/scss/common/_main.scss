@@ -1,11 +1,16 @@
-* {
-	margin:     0;
-	padding:    0;
-	box-sizing: border-box;
+html {
+	min-width: 1120px;
 }
 
 body {
 	font-family: OpenSansRegular, sans-serif;
+	min-width:   1120px;
+}
+
+* {
+	margin:     0;
+	padding:    0;
+	box-sizing: border-box;
 }
 
 .container {

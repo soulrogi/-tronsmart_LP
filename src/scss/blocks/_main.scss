@@ -8,16 +8,18 @@
 		&-new {
 			padding-top: 160px;
 			height:      1000px;
-			background:  url('../../img/background-section-one.jpg') no-repeat center;
+			background:  url('./../img/background-section-one.jpg') no-repeat center;
 
 			&__new {
-				color:         $violet;
-				font-weight:   300;
-				font-size:     26px;
-				line-height:   50px;
-				text-align:    center;
-				margin-bottom: 30px;
-				background:    url('../../img/background-new.png') no-repeat center;
+				font-family:    OpenSansLight;
+				color:          $violet;
+				font-weight:    300;
+				font-size:      26px;
+				line-height:    50px;
+				text-align:     center;
+				margin-bottom:  30px;
+				text-transform: uppercase;
+				background:     url('./../img/background-new.png') no-repeat center;
 			}
 
 			&__title {
@@ -37,7 +39,7 @@
 		&-innovation {
 			padding-top: 160px;
 			height:      1000px;
-			background:  url('../../img/background-second.jpg') no-repeat center;
+			background:  url('./../img/background-second.jpg') no-repeat center;
 
 			&__content {
 				width: 535px;
@@ -61,7 +63,7 @@
 			}
 
 			&__sound-pulse-img {
-				background:  url('../../img/sound-pulse.png') no-repeat center;
+				background:  url('./../img/sound-pulse.png') no-repeat center;
 				height:      75px;
 				width:       152px;
 				margin-left: -18px;
@@ -77,7 +79,7 @@
 			&__bg-top,
 			&__bg-bottom {
 				position:   absolute;
-				background: url('../../img/background-triangle.png') no-repeat center;
+				background: url('./../img/background-triangle.png') no-repeat center;
 				bottom:     100%;
 				width:      100%;
 				height:     210px;
@@ -182,8 +184,12 @@
 		&-control {
 			&__title {
 				font-size:     50px;
-				line-height:   65px;
-				margin-bottom: 40px;
+				line-height:   55px;
+				margin-bottom: 35px;
+
+				&_center {
+					text-align: center;
+				}
 			}
 
 			&__text {
@@ -215,10 +221,6 @@
 				align-items:     center;
 			}
 
-			&__content {
-				padding-right: 125px;
-			}
-
 			&__img {
 				height: 100%;
 				width:  100%;
@@ -237,7 +239,7 @@
 				}
 
 				&:before {
-					background: url('../../img/control-voice.png') no-repeat center;
+					background: url('./../img/control-voice.png') no-repeat center;
 					width:      48px;
 					height:     48px;
 					top:        15px;
@@ -259,7 +261,7 @@
 		&-protection {
 			position:   relative;
 			margin-top: 130px;
-			background: url('../../img/background-protection.png') no-repeat center;
+			background: url('./../img/background-protection.png') no-repeat center;
 			height:     800px;
 			color:      $white;
 
@@ -386,7 +388,7 @@
 				font-size:       13px;
 				color:           $purpleHeart;
 				padding:         14px 28px;
-				background:      url('../../img/btn-more.png') no-repeat center;
+				background:      url('./../img/btn-more.png') no-repeat center;
 			}
 
 			&__catalog-button {

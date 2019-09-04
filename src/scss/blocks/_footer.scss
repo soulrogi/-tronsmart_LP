@@ -18,15 +18,15 @@
 		display: inline-block;
 	}
 
-	&__dns-link {
-		background: url('../../img/footer-dns-logo.png') no-repeat center;
+	&__dns {
+		background: url('./../img/footer-dns-logo.png') no-repeat center;
 		width:      228px;
 		height:     25px;
 		display:    inline-block;
 	}
 
-	&__tronsmart-link {
-		background: url('../../img/footer-tronsmart-logo.png') no-repeat center;
+	&__tronsmart {
+		background: url('./../img/footer-tronsmart-logo.png') no-repeat center;
 		width:      125px;
 		height:     18px;
 		display:    inline-block;
