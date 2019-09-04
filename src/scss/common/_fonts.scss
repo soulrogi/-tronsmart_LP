@@ -1,0 +1,32 @@
+@font-face {
+	font-family: 'OpenSansLight';
+	src:         local('OpenSans-Light'),
+	             url('../../fonts/OpenSans-Light.woff2') format('woff2'),
+	             url('../../fonts/OpenSans-Light.woff') format('woff'),
+	             url('../../fonts/OpenSans-Light.ttf') format('truetype');
+	font-weight: normal;
+	font-style:  normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'OpenSansLightItalic';
+	src:         local('OpenSans-Light'),
+	             url('../../fonts/OpenSans-LightItalic.woff2') format('woff2'),
+	             url('../../fonts/OpenSans-LightItalic.woff') format('woff'),
+	             url('../../fonts/OpenSans-LightItalic.ttf') format('truetype');
+	font-weight: normal;
+	font-style:  normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'OpenSansRegular';
+	src:         local('OpenSans-Light'),
+	             url('../../fonts/OpenSans-Regular.woff2') format('woff2'),
+	             url('../../fonts/OpenSans-Regular.woff') format('woff'),
+	             url('../../fonts/OpenSans-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style:  normal;
+	font-display: swap;
+}

@@ -1,0 +1,57 @@
+@import '../common/variables';
+@import '../mixins/clearfix';
+
+.header {
+	font-family: OpenSansLight;
+	background:  url('../../img/background-header.jpg') no-repeat center;
+	height:      1000px;
+	width:       100%;
+	padding-top: 51px;
+
+
+	&__logo {
+		@include clearfix;
+	}
+
+	&__dns-logo {
+		@include clearfix;
+		width:      254px;
+		height:     27px;
+		float:      right;
+		background: url('../../img/header-dns-logo.png') no-repeat center;
+	}
+
+	&__dns-link {
+		display: inline-block;
+		height:  100%;
+		width:   100%;
+	}
+
+	&__tronsmart-logo {
+		margin-top: 150px;
+		width:      466px;
+		height:     67px;
+		background: url('../../img/header-tronsmart-logo.png') no-repeat center;
+	}
+
+	&__content {
+	}
+
+	&__text {
+		color:       $white;
+		margin-top:  65px;
+		font-weight: 300;
+		font-size:   56px;
+		line-height: 65px;
+	}
+
+	&__details-btn-link {
+		padding:         20px 40px;
+		display:         inline-block;
+		color:           $white;
+		font-size:       18px;
+		margin-top:      115px;
+		text-decoration: none;
+		background:      url('../../img/btn-details.png') no-repeat center;
+	}
+}
