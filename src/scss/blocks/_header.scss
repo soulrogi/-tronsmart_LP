@@ -1,5 +1,6 @@
 @import '../common/variables';
 @import '../mixins/clearfix';
+@import '../placeholders/buttons-hovers';
 
 .header {
 	font-family: OpenSansLight;
@@ -28,9 +29,6 @@
 		background: url('./../img/header-tronsmart-logo.png') no-repeat center;
 	}
 
-	&__content {
-	}
-
 	&__text {
 		color:       $white;
 		margin-top:  65px;
@@ -40,6 +38,7 @@
 	}
 
 	&__details-btn-link {
+		@extend %button-border-hover;
 		padding:         20px 40px;
 		display:         inline-block;
 		color:           $white;
